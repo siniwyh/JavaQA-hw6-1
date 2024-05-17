@@ -6,8 +6,8 @@ public class Main {
 
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
-        int sum = service.sumAllSales(sales);
-        int average = service.averageSalesAmount(sales);
+        long sum = service.sumAllSales(sales);
+        long average = service.averageSalesAmount(sales);
         int maxSales = service.maxSales(sales);
         int minSales = service.minSales(sales);
         int salesBelowAvg = service.salesBelowAverage(sales);

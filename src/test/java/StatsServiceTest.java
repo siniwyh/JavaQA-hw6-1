@@ -9,15 +9,15 @@ public class StatsServiceTest {
     public void sumAllSalesTest() {
         StatsService service = new StatsService();
         int expected = 180;
-        int actual = service.sumAllSales(sales);
+        long actual = service.sumAllSales(sales);
 
         Assertions.assertEquals(expected, actual);
     }
     @Test
     public void averageSalesAmountTest() {
         StatsService service = new StatsService();
-        int expected = 15;
-        int actual = service.averageSalesAmount(sales);
+        long expected = 15;
+        long actual = service.averageSalesAmount(sales);
 
         Assertions.assertEquals(expected, actual);
     }
